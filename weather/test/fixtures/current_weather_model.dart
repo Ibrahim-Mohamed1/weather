@@ -1,0 +1,37 @@
+import 'package:Weather/data/models/current_weather_model.dart';
+
+CurrentWeatherData testModel = CurrentWeatherData(
+  latitude: 1.0,
+  longitude: 1.0,
+  generationTimeMs: 1.0,
+  utcOffsetSeconds: 1,
+  timezone: '2024-01-20',
+  timezoneAbbreviation: 'MST',
+  elevation: 1.0,
+  currentUnits: CurrentWeatherUnits(
+      apparentTemperature: '',
+      cloudCover: '',
+      interval: '',
+      precipitation: '',
+      rain: '',
+      relativeHumidity2m: '',
+      snowfall: '',
+      temperature2m: '',
+      time: '',
+      weatherCode: '',
+      windDirection10m: '',
+      windSpeed10m: ''),
+  current: CurrentWeather(
+      apparentTemperature: 1.0,
+      cloudCover: 1,
+      interval: 1,
+      precipitation: 1.0,
+      rain: 1.0,
+      relativeHumidity2m: 1,
+      snowfall: 1.0,
+      temperature2m: 1.0,
+      time: '',
+      weatherCode: 1,
+      windDirection10m: 1,
+      windSpeed10m: 1.0),
+);
